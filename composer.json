@@ -1,0 +1,17 @@
+{
+  "name": "hexlet/code",
+  "description": "Brain Games",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hexlet\\Code\\": "src/"
+    }
+  },
+  "bin": [
+    "bin/brain-games"
+  ]
+}
